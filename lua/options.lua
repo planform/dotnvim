@@ -12,6 +12,11 @@ opt.cursorline = true -- 高亮当前行
 opt.cursorlineopt = "number,line" -- 同时高亮行号和文本行
 opt.termguicolors = true
 opt.smoothscroll = true
+opt.foldmethod = "expr"
+opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
+opt.foldenable = true
+opt.foldlevel = 99
+opt.foldlevelstart = 99
 
 opt.expandtab = true
 opt.shiftwidth = 4

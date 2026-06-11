@@ -33,6 +33,13 @@ return {
         },
     },
 
+    {
+        "nvim-treesitter/nvim-treesitter",
+        opts = {
+            ensure_installed = { "lua", "luadoc", "printf", "vim", "vimdoc", "c", "cpp" },
+        },
+    },
+
     -- quickdebug.nvim: GDB/gdbserver debug plugin
     {
         "planform/quickdebug.nvim",
