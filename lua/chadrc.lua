@@ -37,4 +37,13 @@ M.ui = {
     },
 }
 
+M.term = {
+    float = {
+        row = 0.08,
+        col = 0.08,
+        width = 0.82,
+        height = 0.75,
+    },
+}
+
 return M
