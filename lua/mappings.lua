@@ -6,7 +6,8 @@ local map = vim.keymap.set
 
 map("n", ";", ":", { desc = "CMD enter command mode" })
 map("i", "jk", "<ESC>")
-map("n", "gp", "<C-o>", { desc = "goto previous position" })
+map("n", "gp", "<C-t>", { desc = "go back from definition jump" })
+map("n", "gP", "<C-o>", { desc = "goto previous position" })
 map("n", "<leader>fs", "<cmd>Telescope lsp_document_symbols<CR>", { desc = "telescope list document symbols" })
 map("n", "<leader>fc", "<cmd>Telescope lsp_workspace_symbols<CR>", { desc = "telescope list workspace symbols" })
 
